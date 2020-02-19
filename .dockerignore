@@ -1,0 +1,8 @@
+.nyc_output
+*.csr
+*.key
+coverage
+docker-compose.yml
+Dockerfile
+node_modules
+package-lock.json

@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+  forward-email:
+    build: ./
+    image: forward-email:${VERSION:-latest}
+  #redis:
+  #  image: redis
